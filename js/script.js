@@ -26,7 +26,7 @@ window.onload = function() {
         const manFor = 60;
         const womanFor = 30;
         const navLinkFor = 100;
-        const headerBgFor = 160;
+        const headerBgFor = 40;
 
         const speed = 0.05;
 
