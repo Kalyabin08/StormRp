@@ -1,0 +1,248 @@
+
+body {
+    font-family: 'Comic Sans MS', arial;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: url('../img/icons8-center-of-gravity-50.png'), pointer;
+    
+}
+*,html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a, h1,h2,h3,h4, img, span, body, p {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+/* Header */
+
+.header {
+  overflow: hidden;
+  background: url(pngwing.png);
+  background: linear-gradient(180deg, #EBFF02 0%, #000000 60.94%);
+}
+.header_bg {
+    background: url('../img/pngwing\ 3.png') no-repeat top / cover;
+    height: 956px;
+    margin: auto;
+    filter: drop-shadow(-20px 4px 27px rgba(0, 0, 0, 0.25));
+    position: relative;
+}
+.props_img {
+    position: absolute;
+}
+.bird {
+   left: 20%;
+   top: 3%;
+   
+}
+.opacity_could {
+    left: 23%;
+   top: 6%;
+}
+.three_bird {
+    left: 5%;
+    top: 10%;
+}
+.moon {
+    left: 43%;
+    top: 6%;
+}
+.could_3 {
+    left: 65%;
+    top: 3%;
+}
+.gray_could {
+    left: 60%;
+    top: 3%;
+}
+.plain {
+    right: 10%;
+    top: 4%;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    
+}
+.header_header {
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    margin-right: 100px;
+}
+.nav_link {
+    padding: 11px 16px;
+
+    color: #1400FF;
+    border: 3px solid #EBFF02;
+    border-radius: 30px;
+
+    transition: all .2s linear;  
+    filter: drop-shadow(-8px 4px 4px rgba(0, 0, 0, 0.25)); 
+    
+    cursor: url('../img/icons8-cursor-60.png'), pointer;
+}
+.nav_link:hover {
+   background-color: #EBFF02;   
+}
+.main {
+    display: flex;
+}
+.main_left {
+    width: 65%;
+    position: relative;
+}
+.main_photo {
+    position: absolute;
+    
+}
+.man {
+    top:0;    
+    left: 10%;
+    filter: drop-shadow(-10px 4px 3px rgba(0, 0, 0, 0.25));
+    transform: translate();
+}
+.woman {
+    top:0;  
+    left: 45%;
+    filter: drop-shadow(-15px 4px 3px rgba(0, 0, 0, 0.25));
+    
+}
+.main_right {
+    margin-top: 155px;
+
+    width: 64%;
+    position: relative;
+}
+.main_title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+
+    text-shadow: -7px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main_subtitle {
+    margin: 22px 0px;
+    width: 672px;
+
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+    text-shadow: -7px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn {
+    padding: 12px 45px;
+
+    font-size: 40px;
+    line-height: 56px;
+    color: #FFFFFF;
+
+    border: 2px solid rgba(237, 255, 31, 0.38);
+    background: rgba(237, 255, 31, 0.38);
+    border-radius: 0px 30px;
+
+    box-shadow: -13px 4px 4px rgba(0, 0, 0, 0.25);
+
+    transition: all .2s linear;
+
+    cursor: url('../img/icons8-cursor-60.png'), pointer;
+}
+.btn:hover {
+    border: 2px solid rgba(234, 255, 0, .1);
+    background: rgba(231, 252, 0, .1);
+}
+.arrow {
+    position: absolute;
+    
+    cursor: url('../img/icons8-cursor-60.png'), pointer;
+}
+.download {
+    overflow: hidden;
+    background: linear-gradient(180deg, #000000 2.27%, #EBFF00 21.82%, #EBFF00 46.24%, rgba(235, 255, 0, 0.852478) 54.17%, rgba(235, 255, 0, 0.852478) 54.17%, 
+    rgb(0, 0, 0) 100%, rgba(0, 0, 0, 0.4) 100%, #000000 100%);
+    height: 1109px;
+}
+.download_title {
+    padding-top: 50px;
+    text-align: center;
+
+    color:  #1400FF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+
+}
+.download_bg {
+    background: url('../img/section-1/back.png')no-repeat ; 
+    background-size: cover;
+    position: relative;
+   
+}
+.slider_back {
+    background:url('../img/section-1/—Pngtree—paint\ splash_1082931\ 1.png')no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 949px;
+    cursor: url('../img/icons8-hand-cursor-48.png'), pointer;
+}
+.download_inner {
+    display: flex;
+    position: relative;
+}
+.nigga_bro {
+    position: absolute;
+    right: 10%;
+    filter: drop-shadow(-167px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.smoke_bottom {
+    width: 110%;
+    height: 150px;
+    position: absolute;
+    bottom: -60px;
+    left: -20px;
+}
+.slider_item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.logo_slider {
+    margin-right: 40px;
+    
+}
+.inner_cont {
+    display: block;
+    
+}
+.name {
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 70px;
+
+    color: #FFFFFF;
+}
+.klaks {
+    background: url('../img/section-1/white-klyaks\ 1.png') no-repeat;
+    display: block;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
